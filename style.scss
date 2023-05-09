@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+$primary-color: #334858;
+$base-gradient: linear-gradient(78.97deg, #334858 -3.78%, #66C1C0 96.59%);
+
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+img{
+    border-radius: .5rem;
+}
+
+.btn-gradient {
+    background: $base-gradient;
+    color: #fff;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-800{
+    font-weight: 800;
+}
+
+.text-primary{
+    color: $primary-color !important;
+}
+
+.text-black{
+    color: #000 !important;
+}
+
+.text-black-50{
+    color: rgba($color: #000000, $alpha: .8) !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.bg-base-green {
+    background: #67C2C1 !important;
+}
+
+nav{
+    box-shadow: 0 7px 21px rgba($color: #000000, $alpha: .05);
+}
+.nav-item {
+    a {
+        color: rgba($color: #000000, $alpha: 1) !important;
+        font-weight: 600;
+
+        &:hover {
+            color: $primary-color !important;
+        }
+    }
+
+    .btn {
+        color: #fff !important;
+
+        &:hover {
+            color: #fff !important;
+        }
+    }
+}
+
+
+header{
+    // background: url('/assets/hero-image.png');
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+
+    // .opacity-bg{
+    //     background-color: rgba($color: #fff, $alpha: .32);
+    // }
+
+    .heading{
+        h1{
+            font-size: 3.5rem;
+            line-height: 1.2;
+        }
+        h2{
+            font-size: 2.75rem;
+            line-height: 1.4;
+
+        }
+    }
+}
+
+.section-heading{
+    h1{
+        font-weight: 700;
+        color: $primary-color;
+    }
+    p{
+        color: rgba($color: #000000, $alpha: .65);
+    }
+}
